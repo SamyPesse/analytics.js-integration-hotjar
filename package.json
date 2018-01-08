@@ -1,0 +1,46 @@
+{
+  "name": "analytics.js-integration-hotjar",
+  "description": "The Hotjar Analytics.js integration.",
+  "author": "Samy Pesse <samypesse@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "url": "git+https://github.com/SamyPesse/analytics.js-integration-hotjar.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/SamyPesse/analytics.js-integration-hotjar/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "@segment/analytics.js-integration": "^3.1.0"
+  },
+  "devDependencies": {
+    "@segment/analytics.js-core": "^3.0.0",
+    "@segment/analytics.js-integration-tester": "^3.1.0",
+    "@segment/clear-env": "^2.0.3",
+    "@segment/eslint-config": "^3.1.1",
+    "assert": "^1.4.1",
+    "browserify": "^13.1.0",
+    "browserify-istanbul": "^2.0.0",
+    "eslint": "^2.9.0",
+    "eslint-plugin-mocha": "^2.2.0",
+    "eslint-plugin-react": "^4.3.0",
+    "eslint-plugin-require-path-exists": "^1.1.5",
+    "karma": "^1.2.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-junit-reporter": "^1.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-spec-reporter": "0.0.26",
+    "mocha": "^3.0.2",
+    "phantomjs-prebuilt": "^2.1.12",
+    "watchify": "^3.7.0"
+  }
+}
