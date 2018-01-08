@@ -12,7 +12,9 @@ Hotjar integration for [Analytics.js][].
         // Track event name as tag on recordings
         tagEvents: true,
         // Tags to append when identifying an user
-        identifyTags: [ 'Logged In User' ]
+        identifyTags: [ 'Logged In User' ],
+        // false to start recording only users.
+        recordVisitors: true
     }
 }
 ```
